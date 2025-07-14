@@ -1,0 +1,21 @@
+-- Envio automático de workshops para os grupos de alunos INFINITY -- 
+
+Este arquivo contém as instruções de uso do app.
+
+- Coloque o executável em uma pasta. Quando executar o app, os passos 1, 2 e 3, irão criar um arquivo json que será utilizado para acessar, login e senha, os grupos de wpp e as informações dos workshops. - 
+
+1 - Ao executar o arquivo a primeira vez É NECESSÁRIO definir os dados de login do monitor (cpf com formato apenas dos números e data de nascimento com formato dd/mm/yy), as '/' são necessárias para garantir o login de forma correta no infinity.app.
+
+ex: 55544423421
+20/06/2003
+
+Após inserir os dados de login, não será mais necessário inserir dados de login, a menos que execute o programa em outro computador ou queira alterar a conta de login de monitor. 
+
+2 - Ao selecionar a segunda opção, você irá escrever o nome dos grupos de wpp que deseja enviar as informações dos workshops (procure no wpp pelos grupos, para saber a quantia e depois adicione.) Basta colocar o nome do grupo e apertar ENTER, para inserir o próximo grupo.
+
+3 - Ao selecionar a terceira opção, uma página do google chrome será aberta e pedirá para logar com o web whatsapp. Após logar e esperar o app carregar, volte no programa, e aperte ENTER para dar continuidade ao programa. Ele irá carregar e enviar as mensagens de forma automática.
+
+OBS: Caso seja inserida alguma informação errada, como: login, data ou nome dos grupos a maneira mais fácil de corrigir, é excluindo o arquivo json que foi gerado e executar o programa novamente.
+O programa só irá enviar os workshops que estão marcados para ATÉ DUAS SEMANAS, contando da data que foi executado.
+
+Sugestão: Executar o programa na segunda-feira, UMA VEZ POR SEMANA.
