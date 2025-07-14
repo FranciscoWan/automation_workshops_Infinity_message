@@ -1,7 +1,9 @@
 **Automação de Envio de Workshops - INFINITY**
+
 Este é um aplicativo para enviar mensagens automáticas aos grupos de alunos no WhatsApp, lembrando-os sobre os workshops disponíveis para a semana atual e a próxima. O programa foi desenvolvido para facilitar a comunicação com os alunos de forma automatizada.
 
 **Requisitos**
+
 Python 3.x
 
 Bibliotecas necessárias: selenium, json, time, os, webdriver_manager
@@ -18,6 +20,7 @@ Login do Monitor: Insira o CPF (apenas números) e a data de nascimento no forma
 Exemplo de entrada:
 
 55544423421
+
 20/06/2003
 
 3. Definir Grupos de WhatsApp
