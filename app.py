@@ -53,7 +53,7 @@ def workshops():
         clean_list = [item.strip() for item in text_list if item.strip()]
         data_workshop = clean_list[2].split(":").pop(1).strip()
         data_workshop_tratada = datetime.strptime(data_workshop, "%d/%m/%Y")
-        if data_atual < data_workshop_tratada < data_duas_semanas:
+        if data_atual <= data_workshop_tratada <= data_duas_semanas:
             json_workshops = dict(zip(chave_dicionario, clean_list))
             lista_dados.append(json_workshops)
     with open("calendario_workshops_completo", "w",encoding="utf-8") as arquivo_calendario:
